@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= user.name %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= user.id %></h1>
+    <div style="display: flex;align-items: center; gap: 20px;">
+      <img src="<%= user.picture%>" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid black; object-fit: cover;" alt="">
+      <div>
+        <p>Welcome to - <%= user.name %></p>
+        <p>Welcome to - <%= user.email %></p>
+      </div>
+    </div>
+  </body>
+</html>
